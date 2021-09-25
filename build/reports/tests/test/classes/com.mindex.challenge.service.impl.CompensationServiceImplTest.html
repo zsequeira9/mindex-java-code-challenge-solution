@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.mindex.challenge.service.impl.CompensationServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.mindex.challenge.service.impl.CompensationServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mindex.challenge.service.impl.html">com.mindex.challenge.service.impl</a> &gt; CompensationServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.046s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCompensationCreateRead</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2021-09-25 18:00:35.435  INFO 10236 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mindex.challenge.service.impl.CompensationServiceImplTest], using SpringBootContextLoader
+2021-09-25 18:00:35.436  INFO 10236 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.mindex.challenge.service.impl.CompensationServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-09-25 18:00:35.436  INFO 10236 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.CompensationServiceImplTest]: CompensationServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-09-25 18:00:35.438  INFO 10236 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.CompensationServiceImplTest
+2021-09-25 18:00:35.439  INFO 10236 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-09-25 18:00:35.439  INFO 10236 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@210deeca, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5eac9d34, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@327b8969, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ae39d9a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64565db2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ea93931, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3077c34c, org.springframework.test.context.event.EventPublishingTestExecutionListener@64e9795, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50a3f123, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47d43ab7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49b7eca2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bb7383e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7452fc82]
+2021-09-25 18:00:35.466 DEBUG 10236 --- [o-auto-1-exec-7] c.m.c.controller.CompensationController  : Received Compensation create request for [com.mindex.challenge.data.Compensation@511fbbf4]
+2021-09-25 18:00:35.467 DEBUG 10236 --- [o-auto-1-exec-7] c.m.c.s.impl.CompensationServiceImpl     : creating compensation [com.mindex.challenge.data.Compensation@511fbbf4]
+2021-09-25 18:00:35.472  INFO 10236 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection compensation
+2021-09-25 18:00:35.472  INFO 10236 --- [-server-worker2] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.compensation
+2021-09-25 18:00:35.478 DEBUG 10236 --- [o-auto-1-exec-8] c.m.c.controller.CompensationController  : Received Compensation read request for employee with id [16a596ae-edd3-4847-99fe-c4518e82c86f]
+2021-09-25 18:00:35.478 DEBUG 10236 --- [o-auto-1-exec-8] c.m.c.s.impl.CompensationServiceImpl     : Reading compensation for id [16a596ae-edd3-4847-99fe-c4518e82c86f]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Sep 25, 2021, 6:00:35 PM</p>
+</div>
+</div>
+</body>
+</html>
